@@ -896,7 +896,7 @@ class _QuizPageState extends State<QuizPage> {
       await FileSaver.instance.saveFile(
         name: fileName,
         bytes: bytes,
-        ext: 'json',
+        fileExtension: 'json',
         mimeType: MimeType.json,
       );
 
