@@ -517,7 +517,7 @@ class ScienceQuestions {
     for (int i = 0; i < densityMaterials.length; i++) {
       final item = densityMaterials[i];
       final name = item[0] as String;
-      final density = item[1] as int;
+      final density = item[1] as num;
 
       final alternatives = densityMaterials
           .where((s) => s[0] != name)
